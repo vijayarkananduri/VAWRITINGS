@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Browser</title>
+    <style>
+        /* Basic styling for the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: black;
+            color: white;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: 'Ink Free', sans-serif;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: orange;
+            color: black;
+        }
+
+        /* Style the "active" element to highlight the current page */
+        .topnav a.active {
+            background-color: orange;
+            color: black;
+        }
+
+        /* Style the search box inside the navigation bar */
+        .topnav input[type="text"] {
+            float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;
+        }
+
+        /* Center the blocks containing links */
+        .blocks-container {
+            text-align: center;
+        }
+
+        /* Add some spacing between the blocks */
+        .blocks a {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <input type="text" placeholder="Search...">
+    </div>
+    <div class="blocks-container">
+        <div class="block1">
+            <a href="https://www.wattpad.com/story/336710791-the-frequency-of-love">Link 1</a>
+        </div>
+        <div class="block2">
+            <a href="#">Link 2</a>
+        </div>
+        <div class="block3">
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+</body>
+</html>
